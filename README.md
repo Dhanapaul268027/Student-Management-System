@@ -59,7 +59,7 @@ Each module has one job:
 ### Run it
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Dhanapaul268027/Student-Management-System
 cd StudentManagementSystem
 python main.py
 ```
