@@ -7,11 +7,11 @@ Responsible only for wiring the pieces together and starting the app.
 from database import Database
 from student_service import StudentService
 from menu import Menu
-from config import SMS
+from config import APP_NAME
 
 
 def main():
-    print(f"Welcome to {SMS}")
+    print(f"Welcome to {APP_NAME}")
 
     db = Database()
     db.connect()
